@@ -22,7 +22,7 @@ Notice that project was developed on Linux operating system, so that it may be i
  ```python
   sudo apt-get install mpg321
   ```
-
+While the first snippet is utilized for installation of pyaudio (before installing pyaudio you need to apply this), the latter is utilized by os library to play mp3 files (i.e., bot should speak :) )
 
 _**Best Regards**_
 
