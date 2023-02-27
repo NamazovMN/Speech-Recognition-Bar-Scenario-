@@ -11,27 +11,11 @@ Following figure represents the working principle of the project.
  <img src="internal.png" width="500" height="200">
  </p>
 
-### default_settings.py
+Figure depicts that the initial action is introduction of the menu by the bot to the user. Then microphone is calibrated (is not depicted in the figure) and order is asked from the user. At the following step, user's order is checked. If it contains alcoholic beverages they will be kept (if user is 18 years old or older than that) or discarded (otherwise) from the order according the user's age. According to the rest of the order, beverages (if any left) will be provided to the user (ofc virtually :)). At the end, user will be asked whether he/she wants something else. In case the answer include refusal element (no, no thanks or thanks) bot will terminate the conversation. 
+Note: Do not try to check the bugs (e.g., No, I want orange juice), since project is not robust towards such bugs :D 
 
-_It involves related default speech recognition functions for initializing microphone, setting the recognizer and transforming
-the text to the speech._
-
-### natural_language_settings.py
-
-_It involves functions which are related to natural language and dependency parsing. Tokenization of the sentences, extracting
-convenient patterns, nouns are done in this file._
-
-### main.py
-
-_This file is the main file that, menu and some default initializations can be changed or resetted. Order is asked from the 
-user in here, checking the emptyness and convenience of the order has been done in the main while loop. _
-
-_**Note:**_ 
-
-_**If you want to terminate the code, you can use one of the keywords from the list of rejection while bot is asking you  
-to give an order. This will make the project terminate.**_
-  
-###
+## Setup
+Notice that project was developed on Linux operating system, so that it may be incompatible with windows. On ubuntu you might need to have further procedures done. Such as:
 
 
 _**Best Regards**_
