@@ -16,6 +16,12 @@ Note: Do not try to check the bugs (e.g., No, I want orange juice), since projec
 
 ## Setup
 Notice that project was developed on Linux operating system, so that it may be incompatible with windows. On ubuntu you might need to have further procedures done. Such as:
+  ```python
+  sudo apt install portaudio19-dev
+  ```
+ ```python
+  sudo apt-get install mpg321
+  ```
 
 
 _**Best Regards**_
