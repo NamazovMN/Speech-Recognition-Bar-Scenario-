@@ -1,0 +1,4 @@
+spacy~=3.4.4
+nltk~=3.7
+pyaudio~=0.2.13
+gtts~=2.3.1

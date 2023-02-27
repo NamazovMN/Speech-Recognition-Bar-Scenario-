@@ -13,6 +13,7 @@ import random
 import spacy
 import speech_recognition as sr
 
+
 class Settings(object):
 
     def __init__(self, microphone, recognizer, language):
@@ -27,13 +28,14 @@ class Settings(object):
         with self.microphone as source:
             self.recognition.adjust_for_ambient_noise(source, duration=4)
         os.system("mpg321 beep.mp3")
-    
+
     # it is used getting the order from the user
     def get_the_message(self):
         self.init_mic()
         speech_customer = ''
         with self.microphone as source:
-            audio_customer=self.recognition.listen(source)
+            audio_customer = self.recognition.listen(source)
+
         try:
             speech_customer = self.recognition.recognize_google(audio_customer)
             return speech_customer
@@ -42,8 +44,9 @@ class Settings(object):
         except sr.RequestError as e:
             print("Could not request results from Google SRS; {0}".format(e))
 
+
     # it is used for transforming sentences (texts) to the speech
     def speech_generator(self, response):
-        speech_object = gTTS(text = response, lang = self.language, slow = False)
+        speech_object = gTTS(text=response, lang=self.language, slow=False)
         speech_object.save("response.mp3")
         os.system("mpg321 response.mp3")
