@@ -1,10 +1,10 @@
 # Speech-Recognition-Bar-Scenario
 
 ## Introduction
-_This program has been done by using spacy, nltk, speech recognition libraries in order to realize dialog in the bar between bot
-and user._
+Project was built to realize bar tender and customer conversation scenario in any bar. There are some default data that is needed to be modified through the source code such as refusal messages and menu.
 
-## Code Files
+## Working principle
+Following figure represents the working principle of the project. You can find configuration of the microphone, text to speech and speech to text modules in [src/get_message.py](src/get_message.py)
 
 ### default_settings.py
 
