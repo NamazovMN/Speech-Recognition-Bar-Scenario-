@@ -8,7 +8,7 @@ Before diving into details, I would like to explain source files in general. You
 
 Following figure represents the working principle of the project.
 <p align="center">
- <img src="internal.png" width="250" height="200">  <img src="train_results/experiment_1/om/accuracy_plot.png" width="250" height="200">
+ <img src="internal.png" width="500" height="200">
  </p>
 
 ### default_settings.py
