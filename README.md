@@ -4,7 +4,10 @@
 Project was built to realize bar tender and customer conversation scenario in any bar. There are some default data that is needed to be modified through the source code such as refusal messages and menu.
 
 ## Working principle
-Following figure represents the working principle of the project. You can find configuration of the microphone, text to speech and speech to text modules in [src/get_message.py](src/get_message.py). While [src/nlp.py](src/nlp.py) is utilized to configure nlp related tasks, [src/process_scenarios.py](src/process_scenarios.py) is used for realizing the sequence of actions.
+Before diving into details, I would like to explain source files in general. You can find configuration of the microphone, text to speech and speech to text modules in [src/get_message.py](src/get_message.py). While [src/nlp.py](src/nlp.py) is utilized to configure nlp related tasks, [src/process_scenarios.py](src/process_scenarios.py) is used for realizing the sequence of actions.
+
+Following figure represents the working principle of the project.
+
 
 ### default_settings.py
 
