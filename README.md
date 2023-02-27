@@ -7,7 +7,9 @@ Project was built to realize bar tender and customer conversation scenario in an
 Before diving into details, I would like to explain source files in general. You can find configuration of the microphone, text to speech and speech to text modules in [src/get_message.py](src/get_message.py). While [src/nlp.py](src/nlp.py) is utilized to configure nlp related tasks, [src/process_scenarios.py](src/process_scenarios.py) is used for realizing the sequence of actions.
 
 Following figure represents the working principle of the project.
-
+<p align="center">
+ <img src="internal.png" width="250" height="200">  <img src="train_results/experiment_1/om/accuracy_plot.png" width="250" height="200">
+ </p>
 
 ### default_settings.py
 
