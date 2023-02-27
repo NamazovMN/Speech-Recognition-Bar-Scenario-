@@ -24,6 +24,12 @@ Notice that project was developed on Linux operating system, so that it may be i
   ```
 While the first snippet is utilized for installation of pyaudio (before installing pyaudio you need to apply this), the latter is utilized by os library to play mp3 files (i.e., bot should speak :) )
 
+After applying these snippets, you can easily install required dependencies by running the following snippet:
+
+  ```python
+  pip install -r requirements.txt
+  ```
+
 _**Best Regards**_
 
 _**Mahammad Namazov**_
