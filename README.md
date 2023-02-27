@@ -30,6 +30,9 @@ After applying these snippets, you can easily install required dependencies by r
   pip install -r requirements.txt
   ```
 
+## To sum up
+I did this project for the Human Robot Interaction course of my master's degree and you can find previous version of the code in [old_src](old_src). I hope you will like it!
+
 _**Best Regards**_
 
 _**Mahammad Namazov**_
